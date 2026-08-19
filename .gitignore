@@ -1,0 +1,37 @@
+# Gradle
+.gradle/
+build/
+**/build/
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore / signing
+*.jks
+*.keystore
+release/
+
+# Navigation editor temp
+.navigation/
+
+# Proguard
+proguard/
+
+# Output APKs / bundles
+*.apk
+*.aab
+
+# Node (github-setup scripts)
+github-setup/node_modules/
+github-setup/package-lock.json
+
+# OS
+Thumbs.db
