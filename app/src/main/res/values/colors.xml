@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spotify-inspired dark palette -->
+    <color name="hinj_black">#0D0D0D</color>
+    <color name="hinj_surface">#181818</color>
+    <color name="hinj_surface_elevated">#282828</color>
+    <color name="hinj_green">#1ED760</color>
+    <color name="hinj_green_dark">#169C46</color>
+    <color name="hinj_white">#FFFFFF</color>
+    <color name="hinj_grey">#B3B3B3</color>
+    <color name="hinj_grey_light">#F5F5F5</color>
+    <color name="hinj_error">#F15E5E</color>
+
+    <!-- Light theme -->
+    <color name="hinj_light_bg">#FFFFFF</color>
+    <color name="hinj_light_surface">#F2F2F2</color>
+    <color name="hinj_light_text">#121212</color>
+</resources>

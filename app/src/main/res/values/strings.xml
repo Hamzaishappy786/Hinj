@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hinj</string>
+    <string name="settings_title">Settings</string>
+    <string name="tagline">Your music. Offline. Yours.</string>
+
+    <string name="permission_rationale_title">Access your music</string>
+    <string name="permission_rationale_body">Hinj needs access to your audio files to scan the Hinj folder and build your library. Nothing ever leaves your device.</string>
+    <string name="grant_access">Grant access</string>
+
+    <string name="empty_library_title">No tracks yet</string>
+    <string name="empty_library_body">Drop some .mp3 files into Music/Hinj and pull to refresh.</string>
+
+    <string name="action_play">Play</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_next">Next</string>
+    <string name="action_previous">Previous</string>
+
+    <string name="playback_channel_name">Hinj Playback</string>
+    <string name="notification_channel_desc">Controls for music currently playing</string>
+
+    <string name="settings_theme">Dark mode</string>
+    <string name="settings_theme_summary">Switch between light and dark appearance</string>
+
+    <string name="settings_torch_header">Hardware triggers</string>
+    <string name="settings_torch_on_unplug">Flashlight on headset disconnect</string>
+    <string name="settings_torch_on_unplug_summary">Turns the flashlight on for 30s if playback loses its headphone/Bluetooth route</string>
+
+    <string name="settings_notif_header">Notification interruption rules</string>
+    <string name="settings_notif_duck">Duck volume on notification</string>
+    <string name="settings_notif_duck_summary">Lower playback volume for 2 seconds when a notification arrives</string>
+    <string name="settings_notif_blink">Blink flashlight on notification</string>
+    <string name="settings_notif_blink_summary">Briefly flash the camera LED when a notification arrives, without interrupting playback</string>
+
+    <string name="settings_notif_access_header">Notification access</string>
+    <string name="settings_notif_access_summary">Required for the interruption rules above. Tap to enable Hinj in system settings.</string>
+    <string name="settings_notif_access_granted">Granted</string>
+    <string name="settings_notif_access_not_granted">Not granted — tap to open settings</string>
+
+    <!-- Now Playing sheet -->
+    <string name="now_playing">Now Playing</string>
+    <string name="close_player">Close player</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="repeat">Repeat</string>
+
+    <!-- Videos tab / audio extraction -->
+    <string name="tab_songs">Songs</string>
+    <string name="tab_videos">Videos</string>
+    <string name="import_video">Import video</string>
+
+    <string name="permission_rationale_video_body">Hinj needs access to your videos to find ones you can extract audio from.</string>
+
+    <string name="empty_videos_title">No videos yet</string>
+    <string name="empty_videos_body">Drop a video into Music/Hinj, or tap + to import one from anywhere on your device.</string>
+
+    <string name="extract_audio_title">Extract audio</string>
+    <string name="extract_audio_output_name">Track title</string>
+    <string name="extract_audio_delete_original">Delete original video after extracting</string>
+    <string name="extract_audio_delete_original_unavailable">Not available for imported videos</string>
+    <string name="extract_audio_start">Extract</string>
+    <string name="extract_audio_cancel">Cancel</string>
+    <string name="extract_audio_extracting">Extracting…</string>
+    <string name="extract_audio_success">Added to your library</string>
+    <string name="extract_audio_play_now">Play now</string>
+    <string name="extract_audio_cancelled">Extraction cancelled</string>
+    <string name="extract_audio_no_audio_track">This video doesn\'t have an audio track.</string>
+    <string name="extract_audio_delete_failed">Couldn\'t delete the original video</string>
+    <string name="import_video_failed">Couldn\'t read that video</string>
+
+    <!-- YouTube download -->
+    <string name="yt_download_title">Download from YouTube</string>
+    <string name="yt_download_subtitle">Paste a link to any YouTube video or song</string>
+    <string name="yt_url_hint">YouTube link</string>
+    <string name="yt_get_info">Get info</string>
+    <string name="yt_track_title_hint">Track title</string>
+    <string name="yt_artist_hint">Artist</string>
+    <string name="yt_download">Download</string>
+    <string name="yt_change_link">← Change link</string>
+    <string name="yt_cancel">Cancel</string>
+    <string name="yt_downloading">Downloading audio…</string>
+    <string name="yt_error_invalid_url">Not a valid YouTube link</string>
+    <string name="yt_error_no_audio">No audio stream found for this video</string>
+
+    <!-- GitHub Downloads settings -->
+    <string name="settings_github_header">GitHub Downloads</string>
+    <string name="settings_github_summary">Downloads run on GitHub Actions via a Puppeteer script. Create a repo, add the workflow from github-setup/ in this project, then enter your credentials below.</string>
+    <string name="settings_github_owner">GitHub username / org</string>
+    <string name="settings_github_repo">Repository name</string>
+    <string name="settings_github_token">Personal access token (workflow scope)</string>
+    <string name="settings_github_branch">Branch (default: main)</string>
+</resources>

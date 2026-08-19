@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base app theme: Spotify-inspired, Material3, DayNight so it can be
+         flipped at runtime by AppCompatDelegate.setDefaultNightMode(). This
+         file holds LIGHT values; values-night/themes.xml overrides them. -->
+    <style name="Theme.Hinj" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/hinj_green_dark</item>
+        <item name="colorPrimaryVariant">@color/hinj_green</item>
+        <item name="colorOnPrimary">@color/hinj_white</item>
+        <item name="colorSecondary">@color/hinj_green_dark</item>
+        <item name="colorOnSecondary">@color/hinj_white</item>
+        <item name="android:colorBackground">@color/hinj_light_bg</item>
+        <item name="colorSurface">@color/hinj_light_surface</item>
+        <item name="colorOnBackground">@color/hinj_light_text</item>
+        <item name="colorOnSurface">@color/hinj_light_text</item>
+        <item name="colorError">@color/hinj_error</item>
+        <item name="android:statusBarColor">@color/hinj_light_bg</item>
+        <item name="android:navigationBarColor">@color/hinj_light_bg</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+    </style>
+
+    <style name="Theme.Hinj.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/hinj_black</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="windowSplashScreenAnimationDuration">900</item>
+        <item name="postSplashScreenTheme">@style/Theme.Hinj</item>
+    </style>
+
+    <style name="HinjTextTitle">
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="HinjTextSubtitle">
+        <item name="android:textColor">@color/hinj_grey</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+</resources>
